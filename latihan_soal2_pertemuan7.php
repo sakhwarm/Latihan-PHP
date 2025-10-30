@@ -21,12 +21,13 @@ Tampilkan daftar 5 nama buah menggunakan perulangan for."
         ["Budi", "2203", "Teknik Komputer"]
     ];
     
-    for ($i = 0; $i<count($mahasiswa); $i++) {
+    $no= 1;
+    foreach ($mahasiswa as $mhs) {
         echo "<tr>";
-            echo "<td>" . ($i + 1) . "</td>";
-            echo "<td>" . $mahasiswa[$i][0] . "</td>"; 
-            echo "<td>" . $mahasiswa[$i][1] . "</td>"; 
-            echo "<td>" . $mahasiswa[$i][2] . "</td>"; 
+            echo "<td>" . $no++ . "</td>";
+            echo "<td>" . $mhs[0] . "</td>"; 
+            echo "<td>" . $mhs[1] . "</td>"; 
+            echo "<td>" . $mhs[2] . "</td>"; 
         echo "</tr>";
         }
     ?>
