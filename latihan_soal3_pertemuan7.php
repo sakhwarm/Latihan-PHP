@@ -16,7 +16,8 @@ $nilai= [
 
 foreach($nilai as $data) {
             echo "Nama: " . $data["nama"] . "<br>"; 
-            echo "Nilai Tugas: " . $data["tugas"] . "<br>";echo "Nilai UTS: " . $data["uts"] . "<br>";echo "Nilai UAS: " . $data["uas"] . "<br>";
+            echo "Nilai Tugas: " . $data["tugas"] . "<br>";echo "Nilai UTS: " . $data["uts"] . "<br>";
+            echo "Nilai UAS: " . $data["uas"] . "<br>";
             echo "--------------------------" . "<br>";
         }
 ?>
